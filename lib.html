@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDU eLibrary</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        /* Add CSS styles here */
+
+        html {
+            overflow-y: auto; /* Change this to auto */
+        }
+        body {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            height: 100vh;
+            overflow-x: hidden;
+        }
+        .banner {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin: 20px;
+            width: 94.5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height:fit-content;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            width: 50%;
+            border-bottom: 2px solid #ddd;
+        }
+        .logo {
+            height: 100px; /* Adjust the height and width as needed */
+            width: 100px;
+            margin-right: 20px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #333;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+        }
+        .content {
+            text-align: center; /* Add this property to center the text */
+        }
+        .content h1 {
+            font-size: 36px;
+            color: #444;
+            margin-bottom: 10px;
+        }
+        .content p {
+            font-size: 15px;
+            color: #666;
+            line-height: 1.5;
+        }
+        .year-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .year-links a {
+            text-decoration: none;
+            color: #333;
+            padding: 3px 5px;
+            border-radius: 5px;
+            margin: 0 10px;
+            font-size: 30px;
+            font-weight: bolder;
+            padding-top: 6%;
+        }
+        .year-links a:hover {
+            background-color: palevioletred;
+            text-decoration: underline purple;
+            
+        }
+        .content {
+            border-bottom: 5px solid #000000; }
+        
+    </style>
+</head>
+<body>
+    <div class="content">
+    <div class="banner">
+        <div class="navbar">
+            <img src="logo.png" class="logo">
+            <ul>
+                <li><a href="#content" style="font-weight: bolder;font-size: 20px;">Home</a></li>
+                <li><a href="login.html" style="font-weight: bolder;font-size: 20px;">Login</a></li>   
+                <li><a href="#year-links" id="mdu-elab-link" style="font-weight: bolder;font-size: 20px;">MDU E-Lib</a></li>   
+                <li><a href="about.html" style="font-weight: bolder;font-size: 20px;">About us</a></li>
+            </ul>
+        </div>
+        <div class="content" id = "content">
+            <h1>WELCOME TO eLIBRARY OF MDU</h1>  
+            <p style="font-weight: bolder;">
+                (A State University established under Haryana Act No. XXV of 1975)
+                'A+' Grade University Accredited by NAAC
+                This is a eLIBRARY of MDU and here you will get all the PYQs, BOOKs.<br><br>
+                   N.A.A.C. ACCREDITED<br>  <br>
+                   <i style="font-weight: bolder">A+"   Grade   University</i><br><br>
+
+
+RANKED 1ST<br><br>
+<i style="font-weight: bolder;text-decoration: underline;">Swachhta Rankings</i><br><br>
+<i style="font-weight: bolder;text-decoration: underline;">2018</i><br><br>
+
+
+RANKED 1ST<br><br>
+<i style="font-weight: bolder;text-decoration: underline;">Sports (Haryana)</i><br><br>
+
+
+236+<br><br>
+<i style="font-weight: bolder;text-decoration: underline;">Programmes</i><br><br>
+<br>
+
+2 LAC +<br><br>
+<i style="font-weight: bolder;text-decoration: underline;">Students</i><br><br>
+
+
+622 ACRE<br><br>
+<i style="font-weight: bolder;text-decoration: underline;">Spread Campus</i><br><br>
+
+
+RANK 96 IN UNIV. CAT.<br><br>
+<i style="font-weight: bolder;text-decoration: underline;">2024</i><br><br>
+            </p>
+        </div>
+        <p style="font-size: 25px;font-weight: bolder;text-decoration: underline;">MDU E-LIB</p>
+            <div class="year-links" id="year-links">
+                <a href="first.html">First Year</a>
+                <a href="sec.html">Second Year</a>
+                <a href="third.html">Third Year</a>
+                <a href="#">Fourth Year</a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
